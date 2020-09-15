@@ -1,6 +1,12 @@
 .row {
-  margin-left: 20px;
+  padding-left: 4%;
   color: #fff;
+  overflow-x: visible;
+}
+
+.row__title {
+  font-size: 1.4vw;
+  line-height: 1.25vw;
 }
 
 .row__posters {
@@ -20,6 +26,7 @@
   max-height: 100px;
   transition: transform 0.45s;
   margin-right: 10px;
+  border-radius: 4px;
 }
 
 .row__poster:hover {
